@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-img{
+    background-image: url(hero_image.jpg);
+    height: 710px;
+}
+
+.blackbg{
+    height: 730px;
+    background-color: black;
+    opacity: 0.44;
+}
+
+nav{
+    background-color: black;
+    opacity: 0.44;
+}
+
+.navbar{
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 80px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 110px;
+    width: 180px;
+    background-image: url(logo1.png);
+    background-size: cover;
+}
+
+.sel{
+    height: 35px;
+    width: 126px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.signin{
+    margin-left: 25px;
+    height: 35px;
+    width: 76px;
+    color: white;
+    background-color: red;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.hero{
+    text-align: center;
+    background-color: black;
+    opacity: 0.44;
+    padding-top: 150px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.hero h1{
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.hero h4{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero p{
+    margin-top: 30px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.hr{
+    background-color: grey;
+    height: 10px;
+}
+
+.email{
+    background-color: black;
+    opacity: 0.44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.email-input{
+    height: 60px;
+    width: 370px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.gs-button{
+    height: 60px;
+    width: 210px;
+    margin-left: 10px;
+    color: white;
+    background-color: red;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.tv{
+    height: 590px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.text1{
+    margin-left: 170px;
+    color: #FFFFFF;
+    width: 590px;
+}
+
+.text1 h1{
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.text1 h4{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.img1{
+    height: 450px;
+    width: 590px;
+}
+
+.img1 img{
+    position: relative;
+    z-index: 10;
+}
+
+.video1{
+    top: 170px;
+    right: 210px;
+    position: absolute;
+}
+
+.mobile{
+    height: 590px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.text2{
+    color: #FFFFFF;
+    width: 590px;
+}
+
+.text2 h1{
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.text2 h4{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.img2{
+    margin-left: 170px;
+    height: 450px;
+    width: 590px;
+    background-image: url(mobile-0819.jpg);
+    background-size: cover;
+}
+
+
+
+.mac{
+    height: 590px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.text3{
+    margin-left: 170px;
+    color: #FFFFFF;
+    width: 590px;
+}
+
+.text3 h1{
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.text3 h4{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.img3{
+    height: 450px;
+    width: 590px;
+}
+
+.img3 img{
+    position: relative;
+    z-index: 10;
+}
+
+.video2{
+    top: 120px;
+    right: 240px;
+    position: absolute;
+}
+
+.children{
+    height: 590px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.text4{
+    color: #FFFFFF;
+    width: 590px;
+}
+
+.text4 h1{
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.text4 h4{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.img4{
+    margin-left: 170px;
+    height: 450px;
+    width: 590px;
+    background-image: url(children.png);
+    background-size: cover;
+}
+
+.ques{
+    height: 950px;
+    background-color: black;
+}
+
+.ques h1{
+    padding-top: 60px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.ques p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.contact{
+    height: 400px;
+    padding-left: 170px;
+    padding-top: 60px;
+    background-color: black;
+}
+
+.contact p{
+    font-size: 16px;
+    color: #FFFFFFB3;
+}
+
+.contact a{
+    color: #FFFFFFB3;
+}
+
+.list{
+    display: flex;
+}
+
+.list ul{
+    list-style-type: none;
+    padding-right: 150px;
+}
+
+.list li{
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.buttons1{
+    padding-top: 25px;
+}
+
+.NI{
+    padding-top: 25px;
+}
+
+.NI p{
+    font-size: 14px;
+}
