@@ -199,7 +199,7 @@ nav{
     display: flex;
     align-items: center;
     position: relative;
-    bottom: 140px;
+    bottom: 145px;
     left: 135px;
     z-index: 1;
 
@@ -301,12 +301,13 @@ nav{
 }
 
 .ques{
-    height: 950px;
+    height: 860px;
     background-color: black;
+    padding: 75px 0px;
 }
 
 .ques h1{
-    padding-top: 60px;
+    padding-top: 10px;
     text-align: center;
     font-size: 42px;
     font-weight: 900;
@@ -317,6 +318,42 @@ nav{
     margin-top: 30px;
     font-size: 21px;
     font-weight: 400;
+}
+
+.box1{
+    height: 90px;
+    background-color: rgb(45, 45,45);
+    margin-top: 20px;
+    margin-left: 170px;
+    margin-right: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-size: 24px;
+    padding-right: 20px;
+}
+
+.box1 i{
+    font-size: 28px;
+}
+
+.box{
+    height: 90px;
+    background-color: rgb(45, 45,45);
+    margin-top: 10px;
+    margin-left: 170px;
+    margin-right: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-size: 24px;
+    padding-right: 20px;
+}
+
+.mt{
+    padding-top: 20px;
 }
 
 .contact{
