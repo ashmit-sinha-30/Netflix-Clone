@@ -85,7 +85,7 @@ nav{
 }
 
 .hr{
-    background-color: grey;
+    background-color: rgb(35, 35, 35);
     height: 10px;
 }
 
@@ -187,11 +187,46 @@ nav{
     margin-left: 170px;
     height: 450px;
     width: 590px;
-    background-image: url(mobile-0819.jpg);
-    background-size: cover;
 }
 
+.download{
+    background-color: black;
+    height: 110px;
+    width: 330px;
+    border: 2px solid rgba(128,128,128,0.7);
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 140px;
+    left: 135px;
+    z-index: 1;
 
+}
+
+.download-img{
+    padding-left: 12px;
+}
+
+.txt{
+    padding-left: 20px;   
+}
+
+.txt h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.txt h3{
+    padding-top: 3.5px;
+    font-size: 14px;
+    color: #0071EB;
+}
+
+.animation{
+    padding-left: 50px;
+}
 
 .mac{
     height: 590px;
