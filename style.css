@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -5,20 +7,27 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-color: black;
+}
+
 .hero-img{
-    background-image: url(hero_image.jpg);
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.69),
+      rgba(0, 0, 0, 0.69)
+    ),
+    url('hero_image1.jpg');;
     height: 710px;
+    position: relative;
 }
 
-.blackbg{
-    height: 730px;
+.hero-img .blackbg{
+    height: 710px;
+    position: absolute;
+    top: 0;
     background-color: black;
-    opacity: 0.44;
-}
-
-nav{
-    background-color: black;
-    opacity: 0.44;
+    opacity: 0.69;
 }
 
 .navbar{
@@ -41,6 +50,7 @@ nav{
 .sel{
     height: 35px;
     width: 126px;
+    font-weight: 700;
     background-color: black;
     opacity: 0.6;
     color: white;
@@ -53,18 +63,21 @@ nav{
     height: 35px;
     width: 76px;
     color: white;
+    font-weight: 700;
     background-color: red;
     border: 2px solid transparent;
     border-radius: 5px;
 }
 
+.signin:hover{
+    cursor: pointer;
+}
+
 .hero{
     text-align: center;
-    background-color: black;
-    opacity: 0.44;
     padding-top: 150px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .hero h1{
@@ -90,8 +103,6 @@ nav{
 }
 
 .email{
-    background-color: black;
-    opacity: 0.44;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,7 +112,7 @@ nav{
 .email-input{
     height: 60px;
     width: 370px;
-    background-color: black;
+    background-color: rgba(15, 15, 15, 0.64);
     color: white;
     border-radius: 5px;
     font-size: 16px;
@@ -117,6 +128,10 @@ nav{
     border-radius: 5px;
     font-size: 25px;
     font-weight: 650;
+}
+
+.gs-button:hover{
+    cursor: pointer;
 }
 
 .tv{
@@ -301,7 +316,7 @@ nav{
 }
 
 .ques{
-    height: 860px;
+    height: 810px;
     background-color: black;
     padding: 75px 0px;
 }
@@ -321,7 +336,7 @@ nav{
 }
 
 .box1{
-    height: 90px;
+    height: 85px;
     background-color: rgb(45, 45,45);
     margin-top: 20px;
     margin-left: 170px;
@@ -329,17 +344,18 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 20px;
+    padding-left: 25px;
     font-size: 24px;
     padding-right: 20px;
 }
 
-.box1 i{
-    font-size: 28px;
+.box1:hover{
+    cursor: pointer;
 }
 
+
 .box{
-    height: 90px;
+    height: 85px;
     background-color: rgb(45, 45,45);
     margin-top: 10px;
     margin-left: 170px;
@@ -347,9 +363,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 20px;
+    padding-left: 25px;
     font-size: 24px;
     padding-right: 20px;
+}
+
+.box:hover{
+    cursor: pointer;
 }
 
 .mt{
